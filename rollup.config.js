@@ -13,12 +13,12 @@ export default {
   ],
   output: [
     {
-      file: `./dist/${pkg.module}`,
+      file: `./${pkg.module}`,
       format: "es",
       sourcemap: true,
     },
     {
-      file: `./dist/${pkg.main}`,
+      file: `./${pkg.main}`,
       format: "cjs",
       sourcemap: true,
     },
